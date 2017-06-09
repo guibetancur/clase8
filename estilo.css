@@ -1,0 +1,39 @@
+body{
+	background-color: yellow;
+}
+
+
+
+.flex-container{
+	display: 	-webkit-flex;
+	display: 	flex;
+	-webkit-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 		400px;
+	height:		250px;
+	background-color: lightgray;
+
+}
+
+.flex-item {
+	background-color: 	cornflowerblue;
+	width: 	100px;
+	height: 100px;
+	margin: 10px;
+}
+.firts {
+	-webkit-order: -1;
+	order: -1;
+}
+
+
+
+
+	@media (min-width: 480px) {
+		body {
+			background-color: red !important;
+					}
+	}
